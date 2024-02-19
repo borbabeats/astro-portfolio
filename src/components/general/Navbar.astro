@@ -9,7 +9,7 @@ import { createLogo } from "@utils";
   <a
     class="text-2xl dark:text-light font-semibold dark:font-semibold font-outfit"
     href="/"
-    >{createLogo(info.name)}.
+    >{createLogo(info.name)}<strong class="dotshinning">.</strong>
   </a>
   <nav>
     <ul class="flex items-center">
@@ -79,3 +79,20 @@ import { createLogo } from "@utils";
 
   themeButton.addEventListener("click", darkModeHandler);
 </script>
+
+<style>
+@keyframes fade {
+  from {
+    opacity: 1;
+  } to {
+    opacity: 0;
+  }
+}
+
+
+  .dotshinning {
+    text-shadow: 0 0 5px #0fa, 0 0 5px #0fa;
+    animation: 1s fade infinite
+    
+  }
+</style>
