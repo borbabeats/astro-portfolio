@@ -5,7 +5,14 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-portfolio-uzair.vercel.app",
+  site: "https://maiconborba.vercel.app/",
+  i18n: {
+    defaultLocale: 'pt-br',
+    locales: ['pt-br', 'en'],
+    routing: {
+      prefixDefaultLocale: false
+    }
+  },
   integrations: [
     tailwind(),
     sitemap({

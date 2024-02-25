@@ -1,6 +1,7 @@
 ---
 import { info } from "@data";
 import { createLogo } from "@utils";
+import Curriculo from '../../upload/Currículo_Maicon_Borba.pdf'
 ---
 
 <header
@@ -18,9 +19,9 @@ import { createLogo } from "@utils";
           >Projects</a
         >
       </li>
-      <!-- <li>
-        <a class="p-4 dark:text-light block text-lg" href="/contact">Contact</a>
-      </li> -->
+      <li>
+        <a class="p-4 dark:text-light block text-lg" href={Curriculo} target="_blank" download>CV</a>
+      </li>
       <li>
         <button
           aria-label="theme-button"

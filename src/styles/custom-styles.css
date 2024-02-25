@@ -19,6 +19,12 @@
   line-height: 1.2;
 }
 
+.elementor svg{
+  filter: 
+  brightness(0) saturate(100%) invert(65%) sepia(59%) saturate(1126%) hue-rotate(282deg) brightness(105%) contrast(101%)
+  
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
