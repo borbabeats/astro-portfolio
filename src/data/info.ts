@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://maiconborba-portfolio.vercel.app/",
   name: "Maicon Borba",
   jobDescription: "Web Developer",
   about: `Sou um Web Developer de Sapucaia do Sul, RS – Brasil. Gosto de estudar e aprender novas tecnologias, principalmente de Front End e Mobile.
