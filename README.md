@@ -1,1 +1,1 @@
-Portfolio de Maicon Borba usando um template de AstroJS
+Porfolio de Maicon Borba desenvolvido usando template de AstroJS
