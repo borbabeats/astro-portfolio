@@ -33,7 +33,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/gertec-home-mobile.png",
       githubUrl: "#",
-      liveUrl: "https://www.penso.com.br/",
+      liveUrl: "https://www.gertec.com.br/",
     },
     {
       title: "Sistema de protocolos",
