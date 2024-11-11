@@ -36,6 +36,13 @@ export const info = {
       liveUrl: "https://www.penso.com.br/",
     },
     {
+      title: "Sistema de protocolos",
+      isFeatured: true,
+      thumbnail: "/assets/images/sistema-protocolos.png",
+      githubUrl: "https://github.com/borbabeats/Teste_dev",
+      liveUrl: "https://teste-dev-r3gx.vercel.app",
+    },
+    {
       title: "Gangah - Curso de ritmos",
       isFeatured: true,
       thumbnail: "/assets/images/gangah-home.png",
